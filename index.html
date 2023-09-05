@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Cost Calculator</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script type="text/JavaScript" src="index.js"></script>
+</head>
+<body>
+    <img src="party_emoji.png">
+    <h1>Divvy Up Birthday Costs!</h1>
+    <img src="birthdaycake.jpg">
+    <div class="form">
+            <span class="icon">$$$</span><label for="amount"> How much can you spend for each birthday?</label>
+            <input id="amount" name="amount" type="number" value="" min="1" required >
+            <br><br>
+
+            <span class="icon"><img src="people.png"></span><label for="employees" name="employees"> How many people are on your team?</label>
+            <input id="employees" name="employees" type="number" value="" min="3" required>
+            <br><br>
+
+            <span class="icon"><img src="cake-small.png"></span> How many birthdays are this month?</label>
+            <input id="birthdays" name="birthdays" type="number" value="" min="1" required><br>
+            <span class="note"><em>Note: employees won't pay for their own birthday.</em></span>
+            <br><br>
+            
+            <button onclick="calculateBirthdayCost()">Calculate</button>
+    </div>
+    <p class="result"><strong>Cost for employees with birthday: <span id="totalcost-withbirthday"></span></p>
+    <p class="result"><strong>Cost for all others: <span id="totalcost"></span></p>
+
+</html>

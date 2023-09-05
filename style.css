@@ -1,0 +1,53 @@
+body {
+    background-color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:darkgreen;
+    min-height: 100%;
+    display: flexbox;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.form {
+    background-color: azure;
+    margin: 0 auto;
+    display: flexbox;
+    border: 3px solid black;
+    padding: 7px;
+    align-items: center;
+    width: 50%
+}
+
+p {
+    text-align: center;
+}
+
+.note {
+    font-size: 10px
+}
+
+.result {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#totalcost, #totalcost-withbirthday {
+    color: lightseagreen;
+}
+
+img {
+    width: 10%;
+    height: 10%;
+    margin: 0 auto;
+    display:block
+}
+
+.icon img{
+    font-size: 20px;
+    height: 5%;
+    width: 5%;
+    display: inline; 
+}
