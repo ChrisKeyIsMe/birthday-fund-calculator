@@ -1,6 +1,6 @@
 # birthday-fund-calculator ver 1.0
 ### Quick Description:
-This calculator is used for determining how much everybody on your team should contribute for birthdays in a given month. You'll provide the amount that you can spend per birthday, the number of memebers on your team and the number of birthdays for a given month. You'll be given the amounts that members should contribute for the entire month!
+This calculator is used for determining how much everybody on your team should contribute for birthdays in a given month. You'll provide the amount that you can spend per birthday, the number of members on your team and the number of birthdays for a given month. You'll be given the amounts that members should contribute for the entire month!
 
 ### How to use:
 Download the folder, then drag the "index.html" file into your browser. The calculator takes three pieces of info:
